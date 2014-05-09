@@ -1,5 +1,5 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-sample",
+  "name": "vk-x.herokuapp.com",
+  "description": "Custom things that GitHub Pages can't handle.",
+  "repository": "https://github.com/vk-x/vk-x.herokuapp.com"
 }
