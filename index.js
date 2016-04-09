@@ -4,7 +4,7 @@ var app = express();
 app.set('port', (process.env.PORT || 5000))
 
 app.get('/opera', function(request, response) {
-  response.attachment('https://github.com/vk-x/vk-x/releases/download/v0.5.0/vk-x-0.5.0-opera.oex')
+  response.attachment('https://github.com/vk-x/vk-x-legacy/releases/download/v0.5.0/vk-x-0.5.0-opera.oex')
   response.type('application/x-opera-extension')
   response.send()
 })
@@ -12,7 +12,7 @@ app.get('/opera', function(request, response) {
 app.get('/opera-update', function(request, response) {
   response.type('xml')
   response.send('<update-info xmlns="http://www.w3.org/ns/widgets" ' +
-    'src="https://github.com/vk-x/vk-x/releases/download/v0.5.0/vk-' +
+    'src="https://github.com/vk-x/vk-x-legacy/releases/download/v0.5.0/vk-' +
     'x-0.5.0-opera.oex" version="0.5.0"></update-info>')
 })
 
